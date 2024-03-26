@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Technology Page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="tech.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>The Iron Index</h1>
+			
+			<hr>
+		</header>
+		<nav>
+			<a href="../home/home.html">Home | </a> <a href="../index/technology.html">The Iron Index | </a> <a href="../pen/pen.html">Pen Editor</a>
+		</nav>
+			
+		<section>
+			<h2>Iron Index</h2>
+			<p>This is a Database made to search up monsters, magical creatures, armies of the undead, and many more.</p>
+			
+			<form>
+			<!--  Ok so this is for reference ONLY!!!   -->	
+			<!--  1. Smaller Human or Bug Size   -->	
+			<!--  2. IS HUMANOID or human-like  -->	
+			<!--  3. Tall human or small Giant level   -->	
+			<!--  4. Very Giant   -->	
+			<!--  5. Unimaginable   -->
+			<!--  6. Planetary!   -->
+		
+			<label>Type:</label>
+				<select id="formType" name="formType">
+					<option value="pests">Pests</option>
+					<option value="monsters">Monsters</option>
+					<option value="undead">Undead</option>
+					<option value="robotic">Robotic</option>
+					<option value="unholy">Unholy</option>
+					<option value="holy">Holy</option>
+					<option value="spectres">Spectres</option>
+					<option value="aquatic">Aquatic</option>
+					<option value="beasts">Beasts</option>
+					<option value="humanoids">Humanoids</option>
+				</select>
+
+				<label>Biome:</label>
+				<select id="formBiome" name="formBiome">
+					<option value="caves">Caves</option>
+					<option value="plains">Plains</option>
+					<option value="oceans">Oceans</option>
+					<option value="factory">Factory</option>
+					<option value="underworld">Underworld</option>
+					<option value="forests">Forests</option>
+					<option value="sky">Sky</option>
+					<option value="tomb">Tomb</option>
+					<option value="labyrinth">Labyrinth</option>
+				</select>	
+				<button id="submit">Submit</button>
+			</form>
+				<hr>
+				<br>
+			<table id="database">
+				<tr>
+					<th>M-Number:</th>
+					<th>Name:</th>
+					<th>Type:</th>
+					<th>Size:</th>
+					<th>Biome:</th>
+				</tr>
+				<tr>
+					<td id="indexNum"></td>
+					<td id="name"></td>
+					<td id="type"></td>
+					<td id="size"></td>
+					<td id="biome"></td>
+				</tr>
+			</table>
+	
+		</section>
+
+		<footer>
+			<br>
+			<hr>
+			<p>Created by: Bill Nguyen</p>
+		</footer>
+	
+	
+	</body>
+</html>

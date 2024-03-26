@@ -1,0 +1,8 @@
+body, a{
+	background-color:gray;
+	color:lightblue;
+}
+
+table, th, td{
+	border: 1px solid;
+}

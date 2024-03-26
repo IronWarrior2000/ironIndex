@@ -1,0 +1,35 @@
+.log{
+    text-align: right;
+}
+
+body{
+    background-color: goldenrod;
+    color:indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h2{
+    font-size: 20px;
+
+
+}
+
+form, #log{
+    text-align: center;
+
+}
+
+.container{
+    width: 100px;
+}
+
+img{
+    width:20%;
+    height:40%;
+    border: 5px solid;
+    display:block;
+    position: relative;
+    text-align: center;
+    margin:10px;
+}
